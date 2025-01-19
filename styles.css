@@ -26,7 +26,7 @@ body {
     text-align: center;
     width: 90%;
     max-width: 600px;
-    background-color: #0B545D;  /* Darker card background */
+    background-color: #3593a0;  /* Darker card background */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
@@ -46,13 +46,13 @@ input[type="text"] {
     background-color: #EFF1E4;
     color: #333;
     font-size: 16px;
-    caret-color: #CB8D12;
+    caret-color: #cb1212;
 }
 
 button {
     margin: 20px;
     padding: 10px 20px;
-    background-color: #CB8D12;
+    background-color: #c7942d;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -61,7 +61,9 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #fff;
+    color: black;
+    border: #333 solid 1px;
 }
 
 /* Weather result */
