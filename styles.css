@@ -1,0 +1,99 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    /* color: black; */
+    margin: 5px;
+}
+
+/* Body and background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #EFF1E4;  /* Dark background */
+    color: #fff;  /* Light text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    background-color: #0B545D;  /* Darker card background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Input and button styling */
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    margin-right: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #EFF1E4;
+    color: #fff;
+    font-size: 16px;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #CB8D12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Weather result */
+.weather-result {
+    margin-top: 20px;
+}
+
+.weather-result h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.weather-result p {
+    font-size: 18px;
+}
+
+.weather-result img {
+    width: 80px;
+    height: 80px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    .input-container {
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
